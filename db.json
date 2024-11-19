@@ -1,52 +1,64 @@
 {
   "productos": [
     {
-      "id": "1",
-      "imagen": "celu.jpg",
-      "nombre": "celular gama alta",
+      "id": "45ef",
+      "imagen": "https://m.media-amazon.com/images/I/71wpE+ZIehL._AC_UY218_.jpg",
+      "nombre": "Nintendo Switch",
+      "precio": "4,999"
+    },
+    {
+      "id": "9cf1",
+      "imagen": "https://m.media-amazon.com/images/I/71a8eNpIHTL._AC_UY218_.jpg",
+      "nombre": "ACEMAGIC PC",
       "precio": "12,000"
     },
     {
-      "id": "2",
-      "imagen": "celu.jpg",
-      "nombre": "pc",
-      "precio": "18,000"
+      "id": "dd26",
+      "imagen": "https://m.media-amazon.com/images/I/618I64n2QdL._AC_UL320_.jpg",
+      "nombre": "Silla GTRACING ",
+      "precio": "8,500"
     },
     {
-      "id": "3",
-      "imagen": "celu.jpg",
-      "nombre": "tv",
-      "precio": "10,000"
+      "id": "58e3",
+      "imagen": "https://m.media-amazon.com/images/I/61GjlALH-gL._AC_UY218_.jpg",
+      "nombre": "JBL Quantum",
+      "precio": "5,700"
     },
     {
-      "id": "4",
-      "imagen": "celu.jpg",
-      "nombre": "carro",
-      "precio": "72,000"
+      "id": "c950",
+      "imagen": "https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_UY218_.jpg",
+      "nombre": "BENGOO G9000",
+      "precio": "5,999"
     },
     {
-      "id": "5",
-      "imagen": "celu.jpg",
-      "nombre": "iphone",
-      "precio": "18,000"
-    },
-    {
-      "id": "6",
-      "imagen": "celu.jpg",
-      "nombre": "portatil",
+      "id": "5384",
+      "imagen": "https://m.media-amazon.com/images/I/81JtHUVy7+L._AC_UY218_.jpg",
+      "nombre": "Thermaltake CPU",
       "precio": "22,000"
     },
     {
-      "id": "7",
-      "imagen": "celu.jpg",
-      "nombre": "radio",
+      "id": "954b",
+      "imagen": "https://m.media-amazon.com/images/I/61U1gn6JTLL._AC_UY218_.jpg",
+      "nombre": "KAMRUI Mini ",
+      "precio": "3;999"
+    },
+    {
+      "id": "563b",
+      "imagen": "https://m.media-amazon.com/images/I/71aDZGDOwlL._AC_UY218_.jpg",
+      "nombre": "Teclado Hyper",
       "precio": "2,000"
     },
     {
-      "id": "8",
-      "imagen": "celu.jpg",
-      "nombre": "tablet",
-      "precio": "20,000"
+      "id": "7ca0",
+      "imagen": "https://m.media-amazon.com/images/I/616klipzdtL._AC_UY218_.jpg",
+      "nombre": "Xbox Series X",
+      "precio": "6,900"
+    },
+    {
+      "id": "4e7c",
+      "imagen": "https://m.media-amazon.com/images/I/61QKAlzPSfL._AC_UY218_.jpg",
+      "nombre": "Xbox Series S",
+      "precio": "5,000"
     }
   ]
 }
