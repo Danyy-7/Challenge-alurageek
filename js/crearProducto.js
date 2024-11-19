@@ -49,8 +49,6 @@ async function crearProducto(evento) {
         alert(e)
     }
 
-   //console.log(crearProducto);
-
 }
 
 formulario = addEventListener("submit", evento => crearProducto(evento));

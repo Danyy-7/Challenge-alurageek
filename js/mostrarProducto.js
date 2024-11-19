@@ -34,7 +34,7 @@ async function listaDeProductos() {
    // try{
         const listaApi = await conexionApi.listaProductos()
         listaApi.forEach(producto => lista.appendChild(crearCard(producto.id,producto.imagen,producto.nombre,producto.precio))); // recorrido del foreach
-        //console.log(listaApi)
+       
    // }catch{
 
     //}

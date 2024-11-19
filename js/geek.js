@@ -9,7 +9,7 @@ async function listaProductos(){
 }
 
 //funcion asincrona para crear un nuevo producto
-// agg la const de la conexion con el metodo fectch
+
 async function enviarProducto(imagen,nombre,precio) {
     const conexion = await fetch("http://localhost:3002/productos",{
         method:"POST",                                                     //el tipo de metodo al ser post agg nuevos parametros
@@ -24,13 +24,10 @@ async function enviarProducto(imagen,nombre,precio) {
 
     const conexionConvertida = conexion.json(); //convertimos la conexion al elmento json
 
-    if(!conexion.ok){
-       throw new Error("Ha ocurrido un error, ingrese los datos y presione enviar nuevamente")
-    }
-
     return conexionConvertida;   
 }
 
+//funcion  asncrono para agregar el metodo delete y eliminar producto
 async function eliminar(id) {
     const conexion = await fetch(`http://localhost:3002/productos/${id}`,{
         method: "DELETE",
