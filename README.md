@@ -21,11 +21,12 @@ El proyecto incluye las siguientes funcionalidades principales:
 - **Interactividad**: La tienda permite agregar productos al carrito y eliminar productos.
 - **Backend simulado**: Utiliza JSON-Server para simular una base de datos de productos.
 
+## Autor
+## Daniel Vallecillo
+
 ## Cómo Ejecutar el Proyecto
 Para ejecutar el proyecto en tu máquina local, sigue estos pasos:
 
-##Autor
-##Daniel Vallecillo
 
 1. **Clona el repositorio**:
    ```bash
