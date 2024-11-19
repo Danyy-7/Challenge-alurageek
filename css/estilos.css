@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+}
+
+:root{
+    --verde-primario: rgb(47, 105, 78);
+    --azul-fondo: rgb(198, 203, 231);
+    --azul-tarjeta: rgb(154, 154, 211);
+    --fuente-primaria:'Kaushan Script', sans-serif;
+    --fuente-secundaria: 'Host Grotesk', sans-serif;
+
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin: 0%;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.body{
+    background-color: var(--azul-fondo);
+    width: 100%;
+    min-height: 100vh; /* Asegura que ocupe toda la pantalla */
+    font-family: var(--fuente-primaria);
+}

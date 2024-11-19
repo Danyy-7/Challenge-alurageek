@@ -1,0 +1,260 @@
+
+/*--------------encabezado---------*/
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--verde-primario);
+    width: 100%;
+    height: 70px;
+}
+
+.imagen{
+    height: 70px;
+}
+
+/*---------- seccion productos----------*/
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 3rem;
+    gap: 30px;
+    margin-top: 3.75rem;
+    height: 550px;
+}
+
+.contenedor__mis_productos{
+    width: 50%; 
+}
+
+.contenedor__card{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    padding-left: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 70%;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: -8px 12px 10px rgba(0, 0, 0, 0.459); 
+    font-family: var(--fuente-secundaria);
+}
+
+/*---------detalles del scroll---------*/
+.contenedor__card::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px;
+}
+
+.contenedor__card::-webkit-scrollbar-thumb {
+    background-color: #246e3a; 
+    border-radius: 4px; 
+}
+
+.contenedor__card::-webkit-scrollbar-thumb:hover {
+    background-color: #246e3abe; 
+}
+
+
+/*---------detalles de las tarjetas producto---------*/
+
+.crear__card{
+    width: 30%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--azul-tarjeta);
+    gap: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border:2px solid black;   
+}
+
+.producto{
+    background-color: rgb(0, 0, 0);
+    width: 90% ;
+    height: 10rem;
+    border-radius: 5px;
+    border:2px solid black;  
+}
+
+.contenedor__precio_producto{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 100%;    
+}
+
+.boton__borrar{
+    background: none;      
+    border: none;         
+    cursor: pointer;     
+}
+/*--------------------- seccion del formulario-----------*/
+.formulario__campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor__agregar_productos{
+    width: 50%;
+    align-items: center;
+}
+
+.contenedor__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;   
+}
+
+.campo__etiqueta{
+    font-family: var(--fuente-secundaria);
+    width: 100%;
+    height: 0.8rem;
+    color: red;
+}
+
+.campo__escrita{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 1rem;
+    padding-left: 5px;
+}
+
+.campo__escrita:focus{
+    outline:  none;
+    box-shadow: 0 0 5px 2px rgba(2, 80, 35, 0.5); 
+}
+
+.botones{
+    display: flex;
+    gap:2rem;
+    width: 100%;
+    justify-content: center;       
+}
+
+.boton__enviar,
+.boton__limpiar{
+    width: 28%;
+    height: 2.5rem;
+    font-family: var(--fuente-secundaria);
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: var(--azul-tarjeta);
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+
+/*----------------------- pie de la pagina--------------*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--verde-primario);
+    height: auto;
+   
+}
+
+.footer__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 70px;
+}
+
+.pie_pagina{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   width: 100%;
+   gap: 5px;
+}
+
+/*------------ para celular ------------*/
+
+@media (max-width: 834px) {
+    
+    /* Contenedor principal */
+    .contenedor {
+        height: 870px;
+        flex-direction:column-reverse; 
+        padding: 0 1rem;
+        margin-top: 2rem;
+        gap: 20px;
+       
+    }
+
+    .contenedor__mis_productos,
+    .contenedor__agregar_productos {
+        width: 100%; 
+    }
+
+    /*-----------seccion productos---------*/
+    
+    .contenedor__card {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Controla el ancho de cada tarjeta */
+        grid-auto-flow: column;         /* Organiza en columnas en lugar de filas */
+        grid-template-rows: repeat(2, 1fr); /* Dos filas para organizar las tarjetas */
+        max-height: calc(2 * 160px + 100px);
+        overflow-x: auto;      
+    }
+
+    .crear__card {
+        margin:0;
+        width: 200px;
+        height: 200px;       
+    }
+
+    .producto {
+        width: 90% ;
+        height: 8rem;     
+    }
+
+    .contenedor__precio_producto{
+        width: 100%;
+     }
+
+   
+
+    /*----------seccion Formulario--------- */
+    .contenedor__formulario {
+        width: 100%;
+        
+    }
+
+    .campo__escrita {
+        height: 2rem;
+    }
+
+    .botones {
+       gap: 10px; 
+    }
+
+    .boton__enviar,
+    .boton__limpiar {
+        width: 22%;
+        height: 2.5rem; 
+    }
+
+    /*--------- Pie de página------- */
+   .pie_pagina{
+        margin-bottom: 10px;
+   }
+
+   
+
+    
+}
+    

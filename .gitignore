@@ -1,0 +1,53 @@
+# Dependencias
+node_modules/
+
+# Configuración de entornos
+.env
+.env.local
+.env.*.local
+
+# Salidas de compilación
+dist/
+build/
+out/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos del editor de texto/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Sistema operativo
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini         # Windows
+*.swp               # Archivos de intercambio (Vim)
+
+# Archivos de test/coverage
+coverage/
+*.lcov
+
+# Archivos de paquetes
+*.tgz
+
+# Archivos de bloqueo opcionales
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+*.bak
+*.log
+
+# Otros
+.eslintcache
+.parcel-cache/
+.cache/

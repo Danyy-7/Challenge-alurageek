@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "imagen": "celu.jpg",
+      "nombre": "celular gama alta",
+      "precio": "12,000"
+    },
+    {
+      "id": "2",
+      "imagen": "celu.jpg",
+      "nombre": "pc",
+      "precio": "18,000"
+    },
+    {
+      "id": "3",
+      "imagen": "celu.jpg",
+      "nombre": "tv",
+      "precio": "10,000"
+    },
+    {
+      "id": "4",
+      "imagen": "celu.jpg",
+      "nombre": "carro",
+      "precio": "72,000"
+    },
+    {
+      "id": "5",
+      "imagen": "celu.jpg",
+      "nombre": "iphone",
+      "precio": "18,000"
+    },
+    {
+      "id": "6",
+      "imagen": "celu.jpg",
+      "nombre": "portatil",
+      "precio": "22,000"
+    },
+    {
+      "id": "7",
+      "imagen": "celu.jpg",
+      "nombre": "radio",
+      "precio": "2,000"
+    },
+    {
+      "id": "8",
+      "imagen": "celu.jpg",
+      "nombre": "tablet",
+      "precio": "20,000"
+    }
+  ]
+}
