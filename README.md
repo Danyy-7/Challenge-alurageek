@@ -21,8 +21,6 @@ El proyecto incluye las siguientes funcionalidades principales:
 - **Interactividad**: La tienda permite agregar productos al carrito y eliminar productos.
 - **Backend simulado**: Utiliza JSON-Server para simular una base de datos de productos.
 
-## Autor
-## Daniel Vallecillo
 
 ## Cómo Ejecutar el Proyecto
 Para ejecutar el proyecto en tu máquina local, sigue estos pasos:
@@ -31,3 +29,6 @@ Para ejecutar el proyecto en tu máquina local, sigue estos pasos:
 1. **Clona el repositorio**:
    ```bash
    git clone https://github.com/Danyy-7/Challenge-alurageek.git
+
+## Autor
+## Daniel Vallecillo
